@@ -1,0 +1,48 @@
+
+<div class="header">
+
+
+<div class="header__inner">
+MARKET PLACE
+</div>
+</div>
+
+
+<div class="leftContainer">
+<div class="filterData">
+{{#each filters as |filterData index|}}
+
+	{{filterData.title}}
+
+	
+{{/each}}
+</div>
+</div>
+
+<div class="rightContainer">
+
+
+{{#each data as |item index|}}
+<div class="imageList">
+<div class="imageInner">
+ <img src={{item.image_url}} height=100px width=100px/>
+ </div>
+
+ <div class= "imageName">
+  {{item.name}}
+ </div>
+
+
+<div class="imagePrice">
+
+From Rs <span class="actualPrice">{{item.offer_price}}</span>
+
+<span class="slashedPrice">{{item.actual_price}}</span>
+</div>
+
+
+</div>
+{{/each}}
+
+
+</div>

@@ -1,0 +1,63 @@
+.header{
+	    background: blue;
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+    height: 10%;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.leftContainer{
+	width:29%;
+	height:80%;
+	margin-top:5%;
+	float:left;
+	
+}
+
+.rightContainer{
+	width:70%;
+	float:left;
+	position: relative;
+}
+.imageInner{
+	position:absolute;
+	margin-left: 26px;
+    margin-top: 25px;
+}
+.imageName{
+	position:absolute;
+	bottom:30px;
+	font-size: 10px;
+	text-align: center;
+	width:100%;
+}
+.header__inner{
+	color:white;
+}
+.filterData{
+margin-left:10px;
+}
+.imageList{
+	height: 200px;
+	width:150px;
+	float:left;
+	position:relative;
+	margin-top: 10px;
+    margin-bottom: 10px;
+    	border: 1px solid #ebebeb;
+
+}
+.imagePrice{
+	bottom:0px;
+	font-size:10px;
+	position:absolute;
+	margin-left:25px;
+}
+.actualPrice{
+	font-size:13px;
+}
+.slashedPrice{
+	text-decoration: line-through;
+}
